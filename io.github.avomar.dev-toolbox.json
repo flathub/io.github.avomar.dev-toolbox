@@ -12,7 +12,9 @@
     "--socket=fallback-x11",
     "--share=ipc",
     "--device=dri",
-    "--talk-name=com.system76.CosmicSettingsDaemon"
+    "--filesystem=xdg-config/cosmic:ro",
+    "--talk-name=com.system76.CosmicSettingsDaemon",
+    "--talk-name=com.system76.CosmicSettingsDaemon.*"
   ],
   "build-options": {
     "append-path": "/usr/lib/sdk/rust-stable/bin",
@@ -34,8 +36,8 @@
         {
           "type": "git",
           "url": "https://github.com/avomar/dev-toolbox.git",
-          "tag": "v1.0.0",
-          "commit": "9c5216379d42543d38c8d40d2c598b8317bb0af5"
+          "tag": "v2.0.0",
+          "commit": "422eb2e213931ff9272b03b31c70bae94541250f"
         },
         "cargo-sources.json"
       ]
