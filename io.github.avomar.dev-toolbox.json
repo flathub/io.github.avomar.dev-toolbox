@@ -36,8 +36,8 @@
         {
           "type": "git",
           "url": "https://github.com/avomar/dev-toolbox.git",
-          "tag": "v2.0.0",
-          "commit": "422eb2e213931ff9272b03b31c70bae94541250f"
+          "tag": "v2.1.0",
+          "commit": "f775233a8f98374b5b56b78bba8650f207767613"
         },
         "cargo-sources.json"
       ]
